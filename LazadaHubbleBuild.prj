@@ -3,7 +3,7 @@
    <description></description>
    <name>LazadaHubbleBuild</name>
    <tag></tag>
-   <UUID>f3308400-a1ac-4d4c-9774-ff7e8abcf97b</UUID>
+   <UUID>6fe23485-c84c-4389-8304-dc311fe4602a</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <sourceContent>
@@ -25,5 +25,5 @@
       </systemFolderList>
    </sourceContent>
    <timeStampInProperties>false</timeStampInProperties>
-   <type>GENERIC</type>
+   <type>WEBUI</type>
 </Project>

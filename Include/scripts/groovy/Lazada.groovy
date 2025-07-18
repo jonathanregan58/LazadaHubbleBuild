@@ -162,11 +162,9 @@ class Lazada {
 			println myStringList
 
 			WebUI.scrollToElement(findTestObject('Lazada/Product', [('index') : elementCount]), 300)
-			if(i < 3)
-			{
+			if(i < 3) {
 				WebUI.click(findTestObject('Lazada/Button Next Page'))
 			}
-			
 		}
 	}
 }
