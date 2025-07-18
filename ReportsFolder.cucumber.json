@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Test Lazada",
+        "description": "",
+        "id": "lazada;test-lazada",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73219771300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Home Page of Lazada",
+            "match": {
+              "location": "Lazada.user_is_on_home_page_lazada()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9257701700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User searches for \"Logitech Keyboard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Logitech Keyboard\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Lazada.user_searches_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2204703300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User choose price range between \"100000\" to \"3000000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100000\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"3000000\"",
+                  "offset": 44
+                }
+              ],
+              "location": "Lazada.user_choose_price_range_between_to(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1206702800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User choose to sort from lowest to highest",
+            "match": {
+              "location": "Lazada.user_choose_to_sort_from_lowest_to_highest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16177189200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is able to get item name from page 1 to page 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 40
+                },
+                {
+                  "val": "3",
+                  "offset": 50
+                }
+              ],
+              "location": "Lazada.user_is_able_to_get_item_name_from_page_to_page(Integer,Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Lazada"
+          }
+        ]
+      }
+    ],
+    "name": "Lazada",
+    "description": "",
+    "id": "lazada",
+    "keyword": "Feature",
+    "uri": "Include/features/Lazada.feature",
+    "tags": []
+  }
+]
